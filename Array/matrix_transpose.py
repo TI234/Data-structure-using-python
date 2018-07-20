@@ -7,7 +7,7 @@ matrix = []
 for i in range (row):
 	matrix.append([0]*column)
 	for j in range (column):
-		matrix[i][j] = int(input("Enter the element:"))
+		matrix[i][j] = int(input("Enter the element for [{0}][{1}] Position:".format(i,j)))
 print("input matrix:\n\t",matrix)
 #------------------------------------------------------
 # creating a matrix to stote the result
