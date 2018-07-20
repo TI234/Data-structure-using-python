@@ -18,7 +18,7 @@ def QuickSort(A,low,high):
 
 #----------------------------------------------
 #Quick_Sort.py
-# Takimg input array
+# Taking input array
 #----------------------------------------------
 A = []
 x = int(input("Enter the size of array:"))

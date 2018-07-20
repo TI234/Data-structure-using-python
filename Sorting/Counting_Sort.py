@@ -6,7 +6,7 @@ def CountingSort(A,maxValue,minValue):
 	Temp_Array = []
 	length_A = len(A)
 #----------------------------------------------
-# Creating Temparory array:
+# Creating Temp array:
 #----------------------------------------------
 	for i in range (minValue,(maxValue+1)):
 		Temp_Array.append(0)
